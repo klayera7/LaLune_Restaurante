@@ -1,0 +1,75 @@
+body {
+    font-family: 'Georgia', serif;
+    background: radial-gradient(circle, #0d0d2b, #000);
+    color: #eee;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+#lalune {
+    font-size: 3.8rem;
+    background: radial-gradient(circle at right, #ffffff, #4c00ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+
+#slogan {
+    font-size: 1rem;
+    color: #dccdff;
+}
+
+.menu {
+    font-size: 3rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin: 15px 0;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+    background: rgba(255, 255, 255, 0.07);
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.item h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.item p {
+    margin: 4px 0 0 0;
+    font-size: 0.95rem;
+}
+
+.btn-pedir {
+    background: linear-gradient(to right, #4c00ff, #a884ff);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-pedir:hover {
+    background: linear-gradient(to right, #6e00ff, #d5b3ff);
+    transform: scale(1.05);
+}
+
+
+
